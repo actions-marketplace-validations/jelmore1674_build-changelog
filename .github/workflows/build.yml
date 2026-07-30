@@ -23,12 +23,9 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
-      - uses: pnpm/action-setup@v4
-      - uses: actions/setup-node@v6
-        with:
-          node-version: "20"
-          cache: "pnpm"
+      - uses: actions/checkout@v7
+      - uses: jdx/mise-action@v4
+
       - name: Install Packages.
         run: pnpm i --frozen-lockfile
       - name: Lint
@@ -53,10 +50,7 @@ jobs:
       - if: ${{ steps.dirty.outputs.changes == 'true' }}
         name: Load secret
         id: load-op
-        uses: 1password/load-secrets-action@v3
-        with:
-          # Export loaded secrets as environment variables
-          export-env: false
+        uses: 1password/load-secrets-action@v4
         env:
           OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
           GPG_KEY: op://Actions/shared/GPG_KEY
@@ -76,7 +70,7 @@ jobs:
       - if: ${{ steps.dirty.outputs.changes == 'true' }}
         name: "Import GPG key"
         id: import-gpg
-        uses: crazy-max/ghaction-import-gpg@v6
+        uses: crazy-max/ghaction-import-gpg@v7
         with:
           gpg_private_key: ${{ steps.decode.outputs.GPG }}
           passphrase: "${{ steps.load-op.outputs.GPG_PASSPHRASE }}"

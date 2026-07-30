@@ -17,10 +17,7 @@ jobs:
     steps:
       - name: Load secret
         id: load-op
-        uses: 1password/load-secrets-action@v3
-        with:
-          # Export loaded secrets as environment variables
-          export-env: false
+        uses: 1password/load-secrets-action@v4
         env:
           OP_SERVICE_ACCOUNT_TOKEN: ${{ secrets.OP_SERVICE_ACCOUNT_TOKEN }}
           GH_APP_KEY: "op://Actions/GH_APP_KEY/private key"
@@ -28,13 +25,12 @@ jobs:
 
       - name: Get Token
         id: get_workflow_token
-        uses: peter-murray/workflow-application-token-action@v4
+        uses: actions/create-github-app-token@v3
         with:
-          application_id: ${{ steps.load-op.outputs.APP_ID}}
-          application_private_key: ${{ steps.load-op.outputs.GH_APP_KEY }}
-          revoke_token: true
+          app-id: ${{ steps.load-op.outputs.APP_ID}}
+          private-key: ${{ steps.load-op.outputs.GH_APP_KEY }}
 
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           ref: ${{ github.head_ref }}
           fetch-depth: 2

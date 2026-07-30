@@ -5,6 +5,93 @@ All notable changes to this project will be documented in this file.
 The format is based on [Common Changelog](https://common-changelog.org),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.5] - TBD
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.4.16 to 2.5.5 [`c287ffc`](https://github.com/jelmore1674/build-changelog/commit/c287ffc32119f56566fb3672ea0f9e79020a4ca9) | [#208](https://github.com/jelmore1674/build-changelog/pull/208) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vercel/ncc` from 0.38.4 to 0.44.1 [`c287ffc`](https://github.com/jelmore1674/build-changelog/commit/c287ffc32119f56566fb3672ea0f9e79020a4ca9) | [#208](https://github.com/jelmore1674/build-changelog/pull/208) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 4.1.7 to 4.1.10 [`c287ffc`](https://github.com/jelmore1674/build-changelog/commit/c287ffc32119f56566fb3672ea0f9e79020a4ca9) | [#208](https://github.com/jelmore1674/build-changelog/pull/208) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.54.0 to 0.55.2 [`c287ffc`](https://github.com/jelmore1674/build-changelog/commit/c287ffc32119f56566fb3672ea0f9e79020a4ca9) | [#208](https://github.com/jelmore1674/build-changelog/pull/208) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.57.3 to 4.64.0 [`c287ffc`](https://github.com/jelmore1674/build-changelog/commit/c287ffc32119f56566fb3672ea0f9e79020a4ca9) | [#208](https://github.com/jelmore1674/build-changelog/pull/208) | [dependabot](https://github.com/apps/dependabot)
+- Updates `nock` from 14.0.15 to 14.0.16 [`c287ffc`](https://github.com/jelmore1674/build-changelog/commit/c287ffc32119f56566fb3672ea0f9e79020a4ca9) | [#208](https://github.com/jelmore1674/build-changelog/pull/208) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 4.1.7 to 4.1.10 [`c287ffc`](https://github.com/jelmore1674/build-changelog/commit/c287ffc32119f56566fb3672ea0f9e79020a4ca9) | [#208](https://github.com/jelmore1674/build-changelog/pull/208) | [dependabot](https://github.com/apps/dependabot)
+
+## [2.0.4] - 2026-07-25
+
+### Changed
+
+- Updates `@jelmore1674/changelog` from 2.0.0 to 2.0.4 [`fc83c93`](https://github.com/jelmore1674/build-changelog/commit/fc83c930d902a419c44b5a3946027707b81c5ade) | [#209](https://github.com/jelmore1674/build-changelog/pull/209) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@jelmore1674/github-action-helpers` from 1.0.0 to 1.0.2 [`fc83c93`](https://github.com/jelmore1674/build-changelog/commit/fc83c930d902a419c44b5a3946027707b81c5ade) | [#209](https://github.com/jelmore1674/build-changelog/pull/209) | [dependabot](https://github.com/apps/dependabot)
+- Updates `fs-extra` from 11.3.4 to 11.3.6 [`fc83c93`](https://github.com/jelmore1674/build-changelog/commit/fc83c930d902a419c44b5a3946027707b81c5ade) | [#209](https://github.com/jelmore1674/build-changelog/pull/209) | [dependabot](https://github.com/apps/dependabot)
+- Updates `semver` from 7.7.4 to 7.8.5 [`fc83c93`](https://github.com/jelmore1674/build-changelog/commit/fc83c930d902a419c44b5a3946027707b81c5ade) | [#209](https://github.com/jelmore1674/build-changelog/pull/209) | [dependabot](https://github.com/apps/dependabot)
+- Updates `yaml` from 2.8.3 to 2.9.0 [`fc83c93`](https://github.com/jelmore1674/build-changelog/commit/fc83c930d902a419c44b5a3946027707b81c5ade) | [#209](https://github.com/jelmore1674/build-changelog/pull/209) | [dependabot](https://github.com/apps/dependabot)
+- Updates `zod` from 4.4.2 to 4.4.3 [`fc83c93`](https://github.com/jelmore1674/build-changelog/commit/fc83c930d902a419c44b5a3946027707b81c5ade) | [#209](https://github.com/jelmore1674/build-changelog/pull/209) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [actions/checkout](https://github.com/actions/checkout) from 6 to 7. [`a524bda`](https://github.com/jelmore1674/build-changelog/commit/a524bda5565e612ee0a2414f5046fc8b4e49abcb) | [#205](https://github.com/jelmore1674/build-changelog/pull/205) | [dependabot](https://github.com/apps/dependabot)
+
+## [2.0.3] - 2026-06-06
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.4.15 to 2.4.16 [`0688acd`](https://github.com/jelmore1674/build-changelog/commit/0688acdf72b91ec24239e5484374bb96a6e8c761) | [#202](https://github.com/jelmore1674/build-changelog/pull/202) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 4.1.6 to 4.1.7 [`0688acd`](https://github.com/jelmore1674/build-changelog/commit/0688acdf72b91ec24239e5484374bb96a6e8c761) | [#202](https://github.com/jelmore1674/build-changelog/pull/202) | [dependabot](https://github.com/apps/dependabot)
+- Updates `commander` from 14.0.3 to 15.0.0 [`0688acd`](https://github.com/jelmore1674/build-changelog/commit/0688acdf72b91ec24239e5484374bb96a6e8c761) | [#202](https://github.com/jelmore1674/build-changelog/pull/202) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.57.2 to 4.57.3 [`0688acd`](https://github.com/jelmore1674/build-changelog/commit/0688acdf72b91ec24239e5484374bb96a6e8c761) | [#202](https://github.com/jelmore1674/build-changelog/pull/202) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 4.1.6 to 4.1.7 [`0688acd`](https://github.com/jelmore1674/build-changelog/commit/0688acdf72b91ec24239e5484374bb96a6e8c761) | [#202](https://github.com/jelmore1674/build-changelog/pull/202) | [dependabot](https://github.com/apps/dependabot)
+
+## [2.0.2] - 2026-05-23
+
+### Changed
+
+- Updates `@biomejs/biome` from 2.4.13 to 2.4.15 [`7ef7684`](https://github.com/jelmore1674/build-changelog/commit/7ef7684900e8365f3a8bf84068cabcda18cda877) | [#197](https://github.com/jelmore1674/build-changelog/pull/197) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 4.1.5 to 4.1.6 [`7ef7684`](https://github.com/jelmore1674/build-changelog/commit/7ef7684900e8365f3a8bf84068cabcda18cda877) | [#197](https://github.com/jelmore1674/build-changelog/pull/197) | [dependabot](https://github.com/apps/dependabot)
+- Updates `nock` from 14.0.13 to 14.0.15 [`7ef7684`](https://github.com/jelmore1674/build-changelog/commit/7ef7684900e8365f3a8bf84068cabcda18cda877) | [#197](https://github.com/jelmore1674/build-changelog/pull/197) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 4.1.5 to 4.1.6 [`7ef7684`](https://github.com/jelmore1674/build-changelog/commit/7ef7684900e8365f3a8bf84068cabcda18cda877) | [#197](https://github.com/jelmore1674/build-changelog/pull/197) | [dependabot](https://github.com/apps/dependabot)
+- Swap to the `@actions/create-github-app-token` action. [`1943a90`](https://github.com/jelmore1674/build-changelog/commit/1943a90824fe4c533b0dcf3c0324831c6dd96e9d) | [#200](https://github.com/jelmore1674/build-changelog/pull/200) | [Justin Elmore](https://github.com/jelmore1674)
+
+### Added
+
+- Use `mise` to manage `node` and `pnpm` versions. [`1943a90`](https://github.com/jelmore1674/build-changelog/commit/1943a90824fe4c533b0dcf3c0324831c6dd96e9d) | [#200](https://github.com/jelmore1674/build-changelog/pull/200) | [Justin Elmore](https://github.com/jelmore1674)
+
+## [2.0.1] - 2026-05-09
+
+### Changed
+
+- Updates `zod` from 4.4.1 to 4.4.2 [`a8450b3`](https://github.com/jelmore1674/build-changelog/commit/a8450b3181163ac6ff266fb3eca4773979d022ea) | [#193](https://github.com/jelmore1674/build-changelog/pull/193) | [dependabot](https://github.com/apps/dependabot)
+
+## [2.0.0] - 2026-04-30
+
+### Changed
+
+- [Breaking 🧨] - Changed default directory to `build-changelog`. [`c8419f7`](https://github.com/jelmore1674/build-changelog/commit/c8419f7d22ac362e4bf4aeb9e6fd963683d63fee) | [#189](https://github.com/jelmore1674/build-changelog/pull/189) | [Justin Elmore](https://github.com/jelmore1674)
+- Bumps [crazy-max/ghaction-import-gpg](https://github.com/crazy-max/ghaction-import-gpg) from 6 to 7. [`df6f64b`](https://github.com/jelmore1674/build-changelog/commit/df6f64b2f9f16e534a7221a026e8375aa6528da1) | [#183](https://github.com/jelmore1674/build-changelog/pull/183) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [yaml](https://github.com/eemeli/yaml) from 2.8.2 to 2.8.3. [`f5e7ef7`](https://github.com/jelmore1674/build-changelog/commit/f5e7ef7d48a688d4786cb1467aef64b7456ae86d) | [#184](https://github.com/jelmore1674/build-changelog/pull/184) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@biomejs/biome` from 2.3.9 to 2.4.13 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@vitest/coverage-v8` from 4.0.15 to 4.1.5 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `commander` from 14.0.2 to 14.0.3 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `dprint` from 0.50.2 to 0.54.0 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `memfs` from 4.51.1 to 4.57.2 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `nock` from 14.0.10 to 14.0.13 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `typescript` from 5.9.3 to 6.0.3 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vite-tsconfig-paths` from 6.0.1 to 6.1.1 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `vitest` from 4.0.15 to 4.1.5 [`0ea0b7b`](https://github.com/jelmore1674/build-changelog/commit/0ea0b7b472830bcb1dad972805cdad58b9e5079e) | [#185](https://github.com/jelmore1674/build-changelog/pull/185) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@actions/core` from 2.0.1 to 3.0.1 [`d109dec`](https://github.com/jelmore1674/build-changelog/commit/d109decb64bb36ed574bbfd0f3c9f19369bf2ab7) | [#188](https://github.com/jelmore1674/build-changelog/pull/188) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@actions/exec` from 2.0.0 to 3.0.0 [`d109dec`](https://github.com/jelmore1674/build-changelog/commit/d109decb64bb36ed574bbfd0f3c9f19369bf2ab7) | [#188](https://github.com/jelmore1674/build-changelog/pull/188) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@actions/github` from 6.0.1 to 9.1.1 [`d109dec`](https://github.com/jelmore1674/build-changelog/commit/d109decb64bb36ed574bbfd0f3c9f19369bf2ab7) | [#188](https://github.com/jelmore1674/build-changelog/pull/188) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@jelmore1674/changelog` from 1.3.11 to 2.0.0 [`d109dec`](https://github.com/jelmore1674/build-changelog/commit/d109decb64bb36ed574bbfd0f3c9f19369bf2ab7) | [#188](https://github.com/jelmore1674/build-changelog/pull/188) | [dependabot](https://github.com/apps/dependabot)
+- Updates `@jelmore1674/github-action-helpers` from 0.2.11 to 1.0.0 [`d109dec`](https://github.com/jelmore1674/build-changelog/commit/d109decb64bb36ed574bbfd0f3c9f19369bf2ab7) | [#188](https://github.com/jelmore1674/build-changelog/pull/188) | [dependabot](https://github.com/apps/dependabot)
+- Updates `fs-extra` from 11.3.2 to 11.3.4 [`d109dec`](https://github.com/jelmore1674/build-changelog/commit/d109decb64bb36ed574bbfd0f3c9f19369bf2ab7) | [#188](https://github.com/jelmore1674/build-changelog/pull/188) | [dependabot](https://github.com/apps/dependabot)
+- Updates `semver` from 7.7.3 to 7.7.4 [`d109dec`](https://github.com/jelmore1674/build-changelog/commit/d109decb64bb36ed574bbfd0f3c9f19369bf2ab7) | [#188](https://github.com/jelmore1674/build-changelog/pull/188) | [dependabot](https://github.com/apps/dependabot)
+- Changed all actions to use `node24`. [`c8419f7`](https://github.com/jelmore1674/build-changelog/commit/c8419f7d22ac362e4bf4aeb9e6fd963683d63fee) | [#189](https://github.com/jelmore1674/build-changelog/pull/189) | [Justin Elmore](https://github.com/jelmore1674)
+- Bumps [jelmore1674/release-semver-action](https://github.com/jelmore1674/release-semver-action) from 1 to 2. [`83cb4e6`](https://github.com/jelmore1674/build-changelog/commit/83cb4e625b5a466c81ea77693bec3ab7751d89ca) | [#191](https://github.com/jelmore1674/build-changelog/pull/191) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [1password/load-secrets-action](https://github.com/1password/load-secrets-action) from 3 to 4. [`0f9db16`](https://github.com/jelmore1674/build-changelog/commit/0f9db16a588cb873886e1046a9ee052137850410) | [#192](https://github.com/jelmore1674/build-changelog/pull/192) | [dependabot](https://github.com/apps/dependabot)
+- Bumps [pnpm/action-setup](https://github.com/pnpm/action-setup) from 4 to 6. [`6c7aa27`](https://github.com/jelmore1674/build-changelog/commit/6c7aa27b6f2cf3725a1dbcf604e3a0804935ef7c) | [#190](https://github.com/jelmore1674/build-changelog/pull/190) | [dependabot](https://github.com/apps/dependabot)
+
+### Added
+
+- `zod` to the project. [`c8419f7`](https://github.com/jelmore1674/build-changelog/commit/c8419f7d22ac362e4bf4aeb9e6fd963683d63fee) | [#189](https://github.com/jelmore1674/build-changelog/pull/189) | [Justin Elmore](https://github.com/jelmore1674)
+- Create json schema using zod. [`c8419f7`](https://github.com/jelmore1674/build-changelog/commit/c8419f7d22ac362e4bf4aeb9e6fd963683d63fee) | [#189](https://github.com/jelmore1674/build-changelog/pull/189) | [Justin Elmore](https://github.com/jelmore1674)
+
 ## [1.10.17] - 2025-12-20
 
 ### Changed
@@ -456,6 +543,12 @@ _Read the [README.md](./README.md#complex-example) how to add changes._
 
 _Initial Release_
 
+[2.0.5]: https://github.com/jelmore1674/build-changelog/releases/tag/v2.0.5
+[2.0.4]: https://github.com/jelmore1674/build-changelog/releases/tag/v2.0.4
+[2.0.3]: https://github.com/jelmore1674/build-changelog/releases/tag/v2.0.3
+[2.0.2]: https://github.com/jelmore1674/build-changelog/releases/tag/v2.0.2
+[2.0.1]: https://github.com/jelmore1674/build-changelog/releases/tag/v2.0.1
+[2.0.0]: https://github.com/jelmore1674/build-changelog/releases/tag/v2.0.0
 [1.10.17]: https://github.com/jelmore1674/build-changelog/releases/tag/v1.10.17
 [1.10.16]: https://github.com/jelmore1674/build-changelog/releases/tag/v1.10.16
 [1.10.15]: https://github.com/jelmore1674/build-changelog/releases/tag/v1.10.15
